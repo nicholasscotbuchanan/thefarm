@@ -231,6 +231,7 @@ def act_auth(page):
 
     # Email / password sign-in.
     def email_login():
+        if hasattr(page, "mark"): page.mark("email-login")
         show_caption(page, CUES["email-login"])
         log(f"[Auth] {CUES['email-login']['narration']}")
         page.fill("#email", DEMO_EMAIL)
@@ -278,6 +279,7 @@ def act_compose(page):
 
     def compose():
         smooth_scroll_to(page, "textarea", steps=18)
+        if hasattr(page, "mark"): page.mark("compose")
         show_caption(page, CUES["compose"])
         log(f"[The Field] {CUES['compose']['narration']}")
         box = page.locator("textarea").first
@@ -310,6 +312,7 @@ def act_water(page):
         buttons = page.locator('button[title="Water this post"]')
         btn = buttons.nth(1) if buttons.count() > 1 else buttons.first
         btn.scroll_into_view_if_needed()
+        if hasattr(page, "mark"): page.mark("water")
         show_caption(page, CUES["water"])
         log(f"[The Field] {CUES['water']['narration']}")
         before = " ".join(btn.inner_text().split())
