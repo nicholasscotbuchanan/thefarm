@@ -10,6 +10,15 @@ add credentials.
 
 ---
 
+## Screenshots
+
+| Landing page | The Field (signed in) |
+| :---: | :---: |
+| [![TheFarm landing page — hero and feature grid](docs/screenshot-landing.png)](docs/screenshot-landing.png) | [![The Field feed — composer, posts, and trending sidebar](docs/screenshot-feed.png)](docs/screenshot-feed.png) |
+| Hero, live-post preview, and the "social media that respects the soil" feature grid. | The main feed: composer, X-style photo grids, "watering", plus *Growing now* and *Suggested brands*. |
+
+---
+
 ## Features
 
 - 🐦 **Twitter-style feed** ("The Field") with composing, "watering" (likes),
