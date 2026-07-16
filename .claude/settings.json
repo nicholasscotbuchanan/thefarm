@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/private/tmp/pwvenv/bin/python -c \"from playwright.sync_api import sync_playwright; print\\('playwright ok'\\)\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000)",
+      "Bash(HEADLESS=1 SPEED=0.15 VIDEO=1 /private/tmp/pwvenv/bin/python public/demo/playwright.py)",
+      "Bash(rm -f public/demo/video/*.webm)",
+      "Bash(HEADLESS=1 SPEED=0.2 VIDEO=1 /private/tmp/pwvenv/bin/python public/demo/playwright.py)",
+      "Bash(rm -f public/demo/video/*.webm; HEADLESS=1 SPEED=0.2 VIDEO=1 /private/tmp/pwvenv/bin/python public/demo/playwright.py 2>&1 | grep -vE \"^  \\\\[|takes root\")",
+      "Bash(file public/demo/video/*.webm)"
+    ],
+    "additionalDirectories": [
+      "/Users/nbuchanan/Projects/one-shot-social-network/public/demo/video"
+    ]
+  }
+}
