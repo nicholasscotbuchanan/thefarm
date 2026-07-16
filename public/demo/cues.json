@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "title": "TheFarm.com — Product Demo",
+    "tagline": "Your Community, your Freedom, No judgment",
+    "subtitle": "The social network where wellness takes root.",
+    "music": "/music/andriig-agriculture-farming-farm-music-551390.mp3",
+    "musicCredit": "Folk / agriculture farm music (551390) — see /music license file",
+    "baseUrl": "http://localhost:3000",
+    "viewport": { "width": 1440, "height": 900 },
+    "notes": "Cues are consumed by playwright.py. Each cue's `hold` is how long the demo pauses on that beat so a voiceover can read the `narration`. `caption` is burned onto the screen as an overlay. Total narration ~= the sum of all holds."
+  },
+  "cues": [
+    {
+      "id": "intro",
+      "section": "Open",
+      "caption": "Your Community, your Freedom, No judgment.",
+      "narration": "This is TheFarm — the social network where wellness takes root. Your community, your freedom, no judgment.",
+      "hold": 5.5
+    },
+    {
+      "id": "hero",
+      "section": "Landing",
+      "caption": "Where wellness takes root",
+      "narration": "A calm, Twitter-style home for regenerative growers and the alternative-health brands they feed. Twelve thousand growers, ninety-eight percent publishing lab results, and zero creepy algorithms.",
+      "hold": 6.5
+    },
+    {
+      "id": "features",
+      "section": "Landing",
+      "caption": "Built around trust, provenance, and community",
+      "narration": "We stripped out the outrage machine. Grow in public, prove your practices with real paperwork, build a farm-to-brand network, and enjoy a feed that's slower by design.",
+      "hold": 6.5
+    },
+    {
+      "id": "how-it-works",
+      "section": "Landing",
+      "caption": "From seed to sale, in the open",
+      "narration": "Three simple steps: plant your story, prove your practices with certificates and lab tests, and grow a community that spreads by trust — not by an algorithm.",
+      "hold": 6.0
+    },
+    {
+      "id": "for-brands",
+      "section": "Landing",
+      "caption": "OAuth-ready for your storefront",
+      "narration": "For brands, TheFarm is your most honest storefront. Connect any store over an OAuth 2.0 API — the same foundation that powers Google and GitHub sign-in here.",
+      "hold": 6.0
+    },
+    {
+      "id": "final-cta",
+      "section": "Landing",
+      "caption": "Ready to put down roots?",
+      "narration": "Your first post is thirty seconds away. Let's sign in.",
+      "hold": 4.5
+    },
+    {
+      "id": "login",
+      "section": "Auth",
+      "caption": "Sign in — email or social",
+      "narration": "Authentication ships built in. Email and password work out of the box, and Google, Apple, Facebook, and GitHub switch on automatically the moment you add credentials.",
+      "hold": 6.5
+    },
+    {
+      "id": "social-modal",
+      "section": "Auth",
+      "caption": "Social logins are wired and ready",
+      "narration": "Every social button is real. Until a provider's keys are configured, it explains exactly how to turn it on — no code changes required.",
+      "hold": 6.0
+    },
+    {
+      "id": "email-login",
+      "section": "Auth",
+      "caption": "Any valid email + a 6-character password",
+      "narration": "For the demo, any valid email and a six-character password gets you in. We'll sign in as grower at thefarm dot com.",
+      "hold": 6.0
+    },
+    {
+      "id": "feed-intro",
+      "section": "The Field",
+      "caption": "Welcome to The Field",
+      "narration": "This is The Field — the main feed, fresh from growers and brands across TheFarm.",
+      "hold": 5.0
+    },
+    {
+      "id": "feed-images",
+      "section": "The Field",
+      "caption": "Rich posts with an X-style photo grid",
+      "narration": "Posts carry text, tags, and media — up to four photos in a clean image grid, with certificates of analysis and sourcing right alongside the story.",
+      "hold": 6.0
+    },
+    {
+      "id": "feed-video",
+      "section": "The Field",
+      "caption": "Inline video, right in the feed",
+      "narration": "Video plays inline too — a single clip per post, with its own player, captured straight from the field.",
+      "hold": 6.0
+    },
+    {
+      "id": "sidebar",
+      "section": "The Field",
+      "caption": "What's growing now + suggested brands",
+      "narration": "A quiet sidebar surfaces trending tags and verified brands to follow — discovery without the noise.",
+      "hold": 5.5
+    },
+    {
+      "id": "compose",
+      "section": "The Field",
+      "caption": "Plant a post of your own",
+      "narration": "Let's plant a post. The composer counts your characters and lets you attach photos or a video before you share.",
+      "hold": 6.0
+    },
+    {
+      "id": "planted",
+      "section": "The Field",
+      "caption": "Your post lands at the top of the feed",
+      "narration": "Planted. Your post appears instantly at the top of the feed.",
+      "hold": 5.0
+    },
+    {
+      "id": "water",
+      "section": "The Field",
+      "caption": "Water a post instead of liking it",
+      "narration": "Instead of a like, you water a post. It's an optimistic, one-tap gesture that spreads good work by trust.",
+      "hold": 5.5
+    },
+    {
+      "id": "disclaimer",
+      "section": "Trust & Legal",
+      "caption": "A complete, wellness-appropriate legal suite",
+      "narration": "And because this is wellness, TheFarm ships a full legal suite — Terms, Privacy, Cookies, and an FDA-style wellness disclaimer, built for alternative-health content.",
+      "hold": 6.0
+    },
+    {
+      "id": "outro",
+      "section": "Close",
+      "caption": "TheFarm.com — where wellness takes root.",
+      "narration": "That's TheFarm. Your community, your freedom, no judgment. Come put down roots.",
+      "hold": 5.5
+    }
+  ]
+}
