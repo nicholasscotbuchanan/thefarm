@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-soil-900 antialiased;
+}
+
+/* Subtle field texture for hero sections */
+.field-texture {
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(124, 187, 82, 0.12), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(230, 155, 31, 0.1), transparent 40%),
+    linear-gradient(180deg, #f2f9ec 0%, #faf8f2 100%);
+}
+
+.card {
+  @apply rounded-2xl border border-soil-100 bg-white shadow-sm;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition focus:outline-none focus:ring-2 focus:ring-offset-2;
+}
+
+.btn-primary {
+  @apply btn bg-sprout-600 text-white hover:bg-sprout-700 focus:ring-sprout-500;
+}
+
+.btn-ghost {
+  @apply btn border border-soil-200 bg-white text-soil-800 hover:bg-soil-50 focus:ring-soil-300;
+}
+
+.link {
+  @apply text-sprout-700 underline-offset-2 hover:underline;
+}
+
+/* Prose for legal pages */
+.legal h2 {
+  @apply mt-8 mb-3 text-xl font-bold text-soil-900;
+}
+.legal h3 {
+  @apply mt-6 mb-2 text-base font-semibold text-soil-800;
+}
+.legal p {
+  @apply mb-4 leading-relaxed text-soil-700;
+}
+.legal ul {
+  @apply mb-4 list-disc space-y-1 pl-6 text-soil-700;
+}
+.legal a {
+  @apply link;
+}

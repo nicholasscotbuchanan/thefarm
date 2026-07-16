@@ -1,0 +1,79 @@
+[
+  {
+    "file": "public/photos/hero-harvest.jpg",
+    "purpose": "Landing hero \u2014 farmer harvesting squash",
+    "title": "20130920-OC-LSC-0225",
+    "creator": "USDAgov",
+    "license": "pdm 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "flickr",
+    "source_page": "https://www.flickr.com/photos/41284017@N08/10463058393",
+    "via": "Openverse (openverse.org)"
+  },
+  {
+    "file": "public/photos/field-spring-harvest.jpg",
+    "purpose": "Green field / spring harvest",
+    "title": "Spring Harvest",
+    "creator": "mpardo.photo",
+    "license": "cc0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "flickr",
+    "source_page": "https://www.flickr.com/photos/130551911@N05/17172214631",
+    "via": "Openverse (openverse.org)"
+  },
+  {
+    "file": "public/photos/tractor-harvest.webp",
+    "purpose": "Tractor harvesting wheat",
+    "title": "Tractor harvest grains wheat farm",
+    "creator": null,
+    "license": "cc0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "rawpixel",
+    "source_page": "https://www.rawpixel.com/image/3284034/free-photo-image-wheat-agriculture-rural-work",
+    "via": "Openverse (openverse.org)"
+  },
+  {
+    "file": "public/photos/fresh-produce.jpg",
+    "purpose": "Fresh harvested vegetables",
+    "title": "20130920-OC-LSC-0662",
+    "creator": "USDAgov",
+    "license": "pdm 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "flickr",
+    "source_page": "https://www.flickr.com/photos/41284017@N08/10548114875",
+    "via": "Openverse (openverse.org)"
+  },
+  {
+    "file": "public/photos/greenhouse-seedlings.jpg",
+    "purpose": "Greenhouse seedlings / nursery",
+    "title": "Glacier's Native Plant Nursery",
+    "creator": "GlacierNPS",
+    "license": "pdm 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "flickr",
+    "source_page": "https://www.flickr.com/photos/43288043@N04/51510834042",
+    "via": "Openverse (openverse.org)"
+  },
+  {
+    "file": "public/photos/farm-scene.jpg",
+    "purpose": "Working farm field",
+    "title": "Aguila Farm in Fallbrook, California",
+    "creator": "FarmersGov",
+    "license": "pdm 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source": "flickr",
+    "source_page": "https://www.flickr.com/photos/144815448@N07/47429343421",
+    "via": "Openverse (openverse.org)"
+  },
+  {
+    "file": "public/photos/field-rows.webp",
+    "purpose": "Scenic crop rows",
+    "title": "scenic landscape rows short orange-leaved",
+    "creator": null,
+    "license": "cc0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "source": "rawpixel",
+    "source_page": "https://www.rawpixel.com/image/3304158/free-photo-image-vineyard-brick-cc0",
+    "via": "Openverse (openverse.org)"
+  }
+]
